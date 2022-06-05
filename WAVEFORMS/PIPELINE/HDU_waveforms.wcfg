@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/zeta/hopeitsfinal/HDU_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="hdu_test" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/hdu_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdu_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdu_test/uut/current_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdu_test/regrs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regrs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regrs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdu_test/regrt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regrt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regrt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdu_test/rdfrompipe" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdfrompipe[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdfrompipe[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdu_test/opcode_after_the_pipeline" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode_after_the_pipeline[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode_after_the_pipeline[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdu_test/pc_lden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_lden</obj_property>
+      <obj_property name="ObjectShortName">pc_lden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdu_test/ifidwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ifidwrite</obj_property>
+      <obj_property name="ObjectShortName">ifidwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdu_test/controlsignals_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">controlsignals_sel</obj_property>
+      <obj_property name="ObjectShortName">controlsignals_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdu_test/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

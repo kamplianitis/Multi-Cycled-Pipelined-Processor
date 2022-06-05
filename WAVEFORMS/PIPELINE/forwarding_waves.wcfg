@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/zeta/hopeitsfinal/forwarding_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="forwarding_test" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/forwarding_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_test/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_test/regrs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regrs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regrs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_test/regrt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regrt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regrt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_test/rdfrompipe2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdfrompipe2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdfrompipe2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_test/rdfrompipe3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdfrompipe3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdfrompipe3[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_test/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_test/rfa_sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rfa_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rfa_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_test/rfb_sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rfb_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rfb_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_test/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/zeta/hopeitsfinal/pipelineTest_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="arraypackage" />
+            <top_module name="numeric_std" />
+            <top_module name="pipelinetest" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/pipelinetest/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinetest/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinetest/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="group22" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_If_stage_pip/pcinsttomem" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">pcinsttomem[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pcinsttomem[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_PipelineIFID/instructionoutput" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instructionoutput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instructionoutput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group27" type="group">
+      <obj_property name="label">Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_Control_pipeline/alu_func" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_Control_pipeline/immext" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">immext[1:0]</obj_property>
+         <obj_property name="ObjectShortName">immext[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_Control_pipeline/opcode" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_Control_pipeline/mem_wren" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mem_wren</obj_property>
+         <obj_property name="ObjectShortName">mem_wren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_Control_pipeline/mem_wren" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mem_wren</obj_property>
+         <obj_property name="ObjectShortName">mem_wren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_Control_pipeline/rf_wren" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_wren</obj_property>
+         <obj_property name="ObjectShortName">rf_wren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_Control_pipeline/rf_wrdata_sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+         <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_Control_pipeline/rf_b_sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_b_sel</obj_property>
+         <obj_property name="ObjectShortName">rf_b_sel</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group28" type="group">
+      <obj_property name="label">Decstage</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_decstage_pipeline/immediate" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">immediate[31:0]</obj_property>
+         <obj_property name="ObjectShortName">immediate[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_decstage_pipeline/rf_a" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rf_a[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_decstage_pipeline/rf_b" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rf_b[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group21" type="group">
+      <obj_property name="label">HDU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_HazardDetectionUnit/pc_lden" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pc_lden</obj_property>
+         <obj_property name="ObjectShortName">pc_lden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_HazardDetectionUnit/ifidwrite" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ifidwrite</obj_property>
+         <obj_property name="ObjectShortName">ifidwrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_HazardDetectionUnit/controlsignals_sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">controlsignals_sel</obj_property>
+         <obj_property name="ObjectShortName">controlsignals_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_HazardDetectionUnit/current_state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group32" type="group">
+      <obj_property name="label">Exstage</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_exstage_pip/alu_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_exstage_pip/pcoutput" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">pcoutput[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pcoutput[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_exstage_pip/alu_zero" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">alu_zero</obj_property>
+         <obj_property name="ObjectShortName">alu_zero</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group41" type="group">
+      <obj_property name="label">forwarding_Unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_ForwardingUnit/rfa_sel" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rfa_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rfa_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_ForwardingUnit/rfb_sel" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rfb_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rfb_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_ForwardingUnit/regrt" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">regrt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">regrt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_ForwardingUnit/regrs" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">regrs[4:0]</obj_property>
+         <obj_property name="ObjectShortName">regrs[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_ForwardingUnit/rdfrompipe2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rdfrompipe2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rdfrompipe2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_ForwardingUnit/rdfrompipe3" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rdfrompipe3[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rdfrompipe3[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group45" type="group">
+      <obj_property name="label">Memstage</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_memstage_pip/mm_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mm_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mm_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_memstage_pip/mm_wrdata" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mm_wrdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mm_wrdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_memstage_pip/mem_dataout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mem_dataout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_dataout[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_Mux32bit2to1/sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinetest/uut/Inst_Datapath_Pipeline/Inst_Mux32bit2to1/x" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x[31:0]</obj_property>
+      <obj_property name="label">dataToRf</obj_property>
+   </wvobject>
+</wave_config>

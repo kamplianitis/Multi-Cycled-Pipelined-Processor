@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/zeta/hopeitsfinal/MULTITEST_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="arraypackage" />
+            <top_module name="multitest" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/multitest/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Control_Mult/current_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Control_Mult/immext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immext[1:0]</obj_property>
+      <obj_property name="ObjectShortName">immext[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Control_Mult/alu_bin_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_bin_sel</obj_property>
+      <obj_property name="ObjectShortName">alu_bin_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Control_Mult/rfa_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rfa_sel</obj_property>
+      <obj_property name="ObjectShortName">rfa_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Control_Mult/rf_b_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_b_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Control_Mult/rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren</obj_property>
+      <obj_property name="ObjectShortName">rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Control_Mult/pc_selection" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_selection</obj_property>
+      <obj_property name="ObjectShortName">pc_selection</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Datapath_multiC/Inst_PCIf_stage/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Datapath_multiC/Inst_Reg/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Datapath_multiC/Inst_decstage_Reg/decc/immed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Datapath_multiC/Inst_decstage_Reg/decc/rf_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Datapath_multiC/Inst_decstage_Reg/decc/rf_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Datapath_multiC/Inst_exstage_Reg/alu_func" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Datapath_multiC/Inst_exstage_Reg/alu_out_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Datapath_multiC/Inst_exstage_Reg/pc_fourorimmed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_fourorimmed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_fourorimmed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Datapath_multiC/Inst_exstage_Reg/alu_zero_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_zero_reg</obj_property>
+      <obj_property name="ObjectShortName">alu_zero_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multitest/uut/Inst_MulticlockProc/Inst_Datapath_multiC/Inst_memstage_Reg/byteop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">byteop</obj_property>
+      <obj_property name="ObjectShortName">byteop</obj_property>
+   </wvobject>
+</wave_config>
